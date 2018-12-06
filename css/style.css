@@ -88,7 +88,7 @@ body > div:first-child h1, body > div:first-child h2 {
 
 div + div:hover article {
   flex: initial;
-  width: 10%;
+  width: 3.4%;
 }
 
 div + div article:hover { width: 60%; }
