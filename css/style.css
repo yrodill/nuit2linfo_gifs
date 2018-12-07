@@ -40,7 +40,7 @@ div + div article:nth-child(12), div + div { background: #263238; }
 
 html, body, div + div {
   width: 100vw;
-  height: 80vh;
+  height: 95vh;
 }
 
 div + div {
@@ -162,5 +162,7 @@ IMG {
   max-height: 600px;
   width: 100%;
   height: auto;
-  box-shadow: inset 0px 0px 5px 5px #000000;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.5),
+              inset 5px 5px 8px rgba(0,0,0,0.5);
 }
