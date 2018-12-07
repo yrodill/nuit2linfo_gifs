@@ -1,3 +1,13 @@
+var lama_show = function(){
+  var gif = document.getElementById("gif2");
+  gif.src = "../IMG/lama.gif"
+}
+
+var reset_july = function(){
+  var gif = document.getElementById("gif2");
+  gif.src = "../IMG/goatstare.gif";
+}
+
 var good_date_fev = function(){
   var gif_fevrier = document.getElementById("gif_fevrier");
   gif_fevrier.src = "../IMG/otter.gif";
@@ -65,6 +75,10 @@ var setuplisteners = function(){
   date_nov.addEventListener("click",good_date_novembre);
   var date_dec = document.getElementById("date_decembre");
   date_dec.addEventListener("click",good_date_decembre);
+  var lama2 = document.getElementById("lama");
+  var july = document.getElementById("july");
+  lama2.addEventListener("click",lama_show);
+  july.addEventListener("mouseover",reset_july);
 }
 
 window.addEventListener("load",setuplisteners);

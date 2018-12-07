@@ -3,8 +3,10 @@ body { background: #eceff1; }
 body, body > * {
   margin: 0;
   padding: 0;
-  font-family: 'Papyrus', sans-serif;
+  font-family: 'Arial', sans-serif;
+  font-weight: 300!important;
   font-weight: normal;
+  font-size: 10px;
 }
 
 * { transition: all .3s ease 0s; }
@@ -33,7 +35,7 @@ div + div article:nth-child(10) { background: #3e2723; }
 
 div + div article:nth-child(11) { background: #212121; }
 
-div + div article:nth-child(12), div + div { background: #263238; }
+div + div article:nth-child(12), div { background: #263238; }
 
 
 /* Main layout */
