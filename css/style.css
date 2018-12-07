@@ -244,3 +244,7 @@ body {font-family: Verdana, sans-serif;}
   color: white !important;
   cursor: pointer;
 }
+
+.calendar{
+  margin-bottom: 3em;
+}
