@@ -1,6 +1,6 @@
 var good_date = function(){
   var gif = document.getElementById("gif");
-  gif.src = "otter.gif";
+  gif.src = "../IMG/otter.gif";
 }
 
 var setuplisteners = function(){
