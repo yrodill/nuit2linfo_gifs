@@ -1,5 +1,9 @@
 h1 {
-  margin-left: 10px;
+  margin-left: 35%;
+}
+
+#date_janvier, #date_fevrier, #date_mars, #date_avril,#date_mai,#date_juin,#lama,#date_aout,#date_septembre,#date_octobre,#date_novembre,#date_decembre {
+  cursor:pointer;
 }
 
 body { background: #eceff1; }
@@ -39,7 +43,7 @@ div + div article:nth-child(10) { background: #3e2723; }
 
 div + div article:nth-child(11) { background: #212121; }
 
-div + div article:nth-child(12), div { background: #263238; }
+div + div article:nth-child(12), div + div { background: #263238; }
 
 
 /* Main layout */
