@@ -151,3 +151,14 @@ article div {
   overflow-y: auto;
 }
 }
+
+
+/*GIFS RESIZED*/
+IMG {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  width: 600px;
+  height: 600px;
+}
