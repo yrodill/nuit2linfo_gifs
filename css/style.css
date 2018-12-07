@@ -162,4 +162,5 @@ IMG {
   max-height: 600px;
   width: 100%;
   height: auto;
+  box-shadow: inset 0px 0px 5px 5px #000000;
 }
